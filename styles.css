@@ -29,9 +29,9 @@
   border: black solid 2px;
   border-radius: 10%;
 }
-#numberDisplay,
-#resultDisplay {
+#numberDisplay {
   text-align: center;
+  margin-top: 5px;
 }
 body {
   display: flex;
@@ -39,4 +39,9 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+}
+#resultDisplay,
+p {
+  margin: 0;
+  padding: 5px;
 }
