@@ -1,0 +1,42 @@
+.button {
+  height: 50px;
+  width: 50px;
+  border-radius: 15%;
+  font-size: x-large;
+  font-weight: bold;
+}
+#numbers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+#rowContainer {
+  display: flex;
+  flex-direction: column;
+}
+#operators {
+  display: flex;
+  flex-direction: column;
+}
+#Enter-button {
+  width: 100px;
+}
+#display {
+  border: black solid 2px;
+  border-radius: 10%;
+}
+#numberDisplay,
+#resultDisplay {
+  text-align: center;
+}
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
